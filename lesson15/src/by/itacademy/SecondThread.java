@@ -1,9 +1,9 @@
 package by.itacademy;
 
 public class SecondThread extends Thread {
-    SyncSmth syncSecond;
+    Sync syncSecond;
 
-    SecondThread(SyncSmth syncSmthMore) {
+    SecondThread(Sync syncSmthMore) {
         this.syncSecond = syncSmthMore;
     }
 

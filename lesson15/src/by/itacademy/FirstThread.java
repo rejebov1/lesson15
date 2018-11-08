@@ -2,9 +2,9 @@ package by.itacademy;
 
 public class FirstThread extends Thread {
 
-    SyncSmth syncFirst;
+    Sync syncFirst;
 
-    FirstThread(SyncSmth syncMore) {
+    FirstThread(Sync syncMore) {
         this.syncFirst = syncMore;
     }
     public void run() {
